@@ -1,7 +1,7 @@
 {
-  "name": "apollo-starter-kit",
-  "version": "0.1.0",
-  "description": "Minimal set of code to write a GraphQL server with Apollo graphql-tools",
+  "name": "Graphql-Mix",
+  "version": "0.0.1",
+  "description": "This is starter project for enthusiast who wants to convert there existing backend code which gets data from multiple sources (databases or Rest API) to a Graphql backend into single query ",
   "scripts": {
     "start": "nodemon ./server.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,27 +9,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apollostack/apollo-starter-kit.git"
+    "url": ""
   },
   "keywords": [
     "Node.js",
     "Javascript",
     "GraphQL",
     "Express",
-    "Apollo",
-    "Meteor"
+    "Apollo"
   ],
-  "author": "Jonas Helfer <jonas@helfer.email>",
+  "author": "Suwigya Rathore <suwigya.rathore.ui@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/apollostack/apollo-starter-kit/issues"
-  },
-  "homepage": "https://github.com/apollostack/apollo-starter-kit#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "4.13.4",
     "apollo-server-express": "^1.0.2",
-    "graphql-tools": "^1.0.0"
+    "body-parser": "^1.17.2",
+    "casual": "^1.5.14",
+    "express": "4.13.4",
+    "graphql-tools": "^1.0.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.6",
+    "node-fetch": "^1.7.2",
+    "sequelize": "^4.4.4",
+    "sqlite": "^2.8.0",
+    "subscriptions-transport-ws": "^0.8.2",
+    "graphql": "^0.10.0"
   },
   "devDependencies": {
     "babel-cli": "6.5.1",
@@ -43,7 +46,6 @@
     "eslint-config-airbnb": "^6.1.0",
     "eslint-plugin-import": "^1.1.0",
     "eslint-plugin-react": "^4.2.3",
-    "graphql": "^0.10.0",
     "nodemon": "^1.9.1"
   },
   "peerDependencies": {
